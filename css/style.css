@@ -1,0 +1,290 @@
+/*
+Project Name: Relaxr Landing Page
+Author: Trevor Lazarus
+Front End Developer @GA in NYC
+*/
+a {
+	text-decoration: none;
+}
+body {
+	background-color: #f0efef;
+}
+#logo {
+	text-align: left;
+	padding-left: 60px;
+	color: white;
+}
+.top {
+	background: url(../images/header_bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	padding: 40px 20px 200px 20px;
+	width: 100%;
+}
+h1 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 800;
+	font-size: 48px;
+	color: white;
+	padding-bottom: 150px;
+}
+h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: 48px;
+	color: white;
+	padding-bottom: 50px;
+}
+.top a {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 800;
+	font-size: 28px;
+	border: solid;
+	border-style: none;
+	border-radius: 5px;
+	color: black;
+	background-color: #f9e42e;
+	padding: 5px 20px;
+}
+.benefits {
+	background-color: #f0efef;
+	padding: 50px 0px 50px 50px;
+}
+h3 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: 40px;
+}
+.benefits p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 26px;
+	font-weight: 300;
+	max-width: 625px;
+	padding-top: 20px;
+	padding-left: 10px;
+	padding-bottom: 50px;
+	line-height: 28px;
+}
+.benefits ul {
+	font-family: 'Open Sans', sans-serif;
+	list-style: disc inside;
+	font-size: 26px;
+	font-weight: 300;
+	padding-left: 80px;
+	max-width: 550px;
+	line-height: 28px;
+}
+.benefits li{
+	padding-bottom: 15px;
+}
+.quote {
+	background: url(../images/testimonial_bg.jpg);
+	text-align: center;
+	padding: 50px;
+	/*background-repeat: no-repeat;*/
+	background-size: 100%;
+}
+.quote p {
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+	font-weight: 300;
+	font-size: 36px;
+	font-style: italic;
+	max-width: 600px;
+	line-height: 40px;
+	margin: 0 auto;
+}
+h4 {
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+	margin: 0 auto;
+	font-size: 36px;
+	font-weight: 600;
+	margin:8px;
+}
+.cta {
+	background-color: #f9e42e;
+	padding: 30px;
+	text-align: center;
+	clear: both;
+}
+.cta a {
+	background-color: #033048;
+	color: white;
+	font-weight: 800;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 24px;
+	border: solid;
+	border-style: none;
+	border-radius: 5px;
+	padding: 5px 20px;
+}
+footer {
+	background-color: #121212;
+	text-align: center;
+	padding: 0px;
+	color: white;
+	font-size: 18px;	
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	padding: 50px;
+	margin: 0 auto;
+	clear: both;
+}
+footer h1 {
+	color: #f9e42e;
+	padding: 0px;
+}
+footer img {
+	padding: 65px 25px;
+}
+/* Box Model Hack */
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+.posts {
+	float:left;
+	max-width: 1000px;
+	min-width: 100px;
+	padding: 30px 0px 80px 100px;
+}
+.post {
+	padding: 30px 10px 20px 0px;
+	max-width: 700px;
+}
+.post h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: 40px;
+	color: #033048;
+	line-height: 42px;
+	padding: 0px;
+	margin: 0px;
+} 
+.post img {
+	height: 100%;
+	max-width: 700px;
+	padding-top: 20px;
+}
+.post p {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300px;
+	font-size: 24px;	
+	color: #606161;
+	padding-top: 20px;
+	line-height: 30px;
+}
+.dropcap {
+	display: inline-block;
+	float: left;
+	font-size: 66px;
+	padding: 20px 10px 20px 0px;
+	font-weight: 600;
+}
+.post a {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: 24px;
+	float: right;
+	color: #033048;
+	padding-top: 50px;
+	padding-bottom: 30px;
+}
+.more {
+	float: right;
+}
+.post hr {
+	clear:both;
+}
+aside {
+	float: left;
+	max-width: 240px;
+	background-color: #f0efef;
+	padding: 50px 0px 0px 20px;
+}
+aside h3 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 32px;
+	color: #033048;
+	font-weight: 800;
+}
+aside ul {
+	padding-top: 10px;
+	padding-bottom: 50px;
+}
+aside li {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 24px;
+	color: #033048;
+	font-weight: 300;
+	padding-top: 10px;
+}
+aside p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 22px;
+	color: #033048;
+	font-weight: 300;
+	padding-top: 10px;
+	line-height: 24px;
+}
+aside a {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 22px;
+	color: #033048;
+	font-weight: 600;
+}
+aside img {
+	padding-top: 50px;
+}
+nav {
+	float: right;
+	padding-top: 15px;
+}	
+nav ul li {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: 24px;
+	color: #f9e42e;
+	display: inline;
+	padding: 0px 20px;
+}
+header.blog {
+	background-color: #033048;
+	padding-top: 25px;
+	width: 100%;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+header .blog h1 {
+	float: left;
+	color: white;
+}
+header .blog a {
+	text-decoration: none;
+	font-color: white;
+	padding: 100px 0px 0px 30px;
+	float: left;
+	color: white;
+}
+header .blog a::visited {
+	text-decoration: none;
+	color: white;
+}
+.blog {
+	max-height: 100px;
+}
+.logo h1 {
+	color: white;
+	text-decoration: none;
+}
+a::after {
+	text-decoration: none;
+	color: white;
+}
+
+a {
+	color: white;
+}
